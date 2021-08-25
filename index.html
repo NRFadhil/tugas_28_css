@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style media="screen">
+      body {
+        background-color: #696969;
+      }
+      .col-4 {
+        margin: 0 auto;
+      }
+      label{
+        color: white;
+      }
+      span {
+        color: blue;
+      }
+
+    </style>
+    <title>Tugas CSS - NIOMIC</title>
+  </head>
+  <body>
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+      <img src="lampung.jpg" alt="gambar lampung" class="rounded-circle mt-4" width="200px" height="200px">
+    </div>
+    <form >
+      <div class="row">
+        <div class="col-4 mt-3">
+          <label>Nama Lengkap</label>
+          <input type="text" class="form-control mt-1" placeholder="Nama Lengkap">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-3">
+          <label>Alamat</label>
+          <textarea  rows="4" cols="8" class="form-control mt-1"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-3">
+          <label>Alamat Email</label>
+          <input class="form-control mt-1" type="text" placeholder="Alamat email (disabled)" disabled>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-3">
+          <label>Password</label>
+          <input type="password" class="form-control mt-1" placeholder="Password">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-3">
+          <label>Scan KTP</label>
+          <br>
+          <input type="file" class=" mt-1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-3">
+          <input type="checkbox"> Saya setuju dan telah membaca <span>aturan</span> serta <span>ketentuan</span> yang berlaku </input>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-3">
+          <button type="submit" class="bg-info text-center text-light form-control">Submit</button>
+        </div>
+      </div>
+      </form>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
